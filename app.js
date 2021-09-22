@@ -22,7 +22,7 @@ d3.json("samples.json").then((data) => {
   var labels = result.otu_labels;
   var values = result.sample_values;
   var ids = result.otu_ids;
-  // Build the Bubble Chart with Plotly
+  // Build the Bubble Chart with Plotly and console logging variables
   var Layout = {
     xaxis: { title: "OTU ID" },
     };
